@@ -105,8 +105,8 @@ class HideMyWP
     }
 
 	function hmwp_plugin_update_checker() {
-		require_once('lib/plugin-update/plugin-update-checker.php');
-		$HMWP_UpdateChecker = PucFactory::buildUpdateChecker(
+		//require_once('lib/plugin-update/plugin-update-checker.php');
+		//$HMWP_UpdateChecker = PucFactory::buildUpdateChecker(
 			'http://api.wpwave.com/hide_my_wp.json',//li will be added automatically
 			__DIR__.'/hide-my-wp.php',
 			'hide-my-wp',
